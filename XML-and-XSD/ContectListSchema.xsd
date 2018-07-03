@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema"
-	targetNamespace="http://www.example.org/ContectListSchema"
-	xmlns:tns="http://www.example.org/ContectListSchema"
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="https://javatoybox.blogspot.hk/SampleSchema"
+	xmlns="https://javatoybox.blogspot.hk/SampleSchema"
 	elementFormDefault="qualified">
-</schema>
+</xs:schema>
