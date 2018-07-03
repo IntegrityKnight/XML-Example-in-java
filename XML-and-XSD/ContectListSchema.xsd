@@ -3,4 +3,22 @@
 	targetNamespace="https://javatoybox.blogspot.hk/SampleSchema"
 	xmlns="https://javatoybox.blogspot.hk/SampleSchema"
 	elementFormDefault="qualified">
+
+	<xs:annotation>
+		<xs:documentation xml:lang="zh-HK">
+			For more information please visit <a href="https://javatoybox.blogspot.com/2018/07/xml-2.html">放棄思考</a>
+		</xs:documentation>
+	</xs:annotation>
+	
+	<xs:element name="ContactList" />
+	<xs:element name="Owner" type="xs:string" />
+	<xs:element name="RenewDateTime" type="xs:dateTime" />
+	<xs:element name="Record"/>
+	<xs:element name="Name" type="xs:string" />
+	<xs:element name="Contact" type="xs:string" />
+	<xs:element name="Address" type="xs:string" />
+	<xs:element name="Department" type="xs:string" />
+	<xs:element name="Title" type="xs:string" />
+	<xs:element name="Description" type="xs:string" />
+	
 </xs:schema>
