@@ -24,7 +24,15 @@
 							<xs:element name="Name" type="xs:string" minOccurs="1"/>
 
 							<xs:choice minOccurs="1" maxOccurs="unbounded">
-								<xs:element name="Contact" type="xs:string" />
+								<xs:element name="Contact">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute name="Type" type="contactType" use="required"/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+								</xs:element>
 								<xs:element name="Address" type="xs:string" />
 							</xs:choice>
 
@@ -39,5 +47,14 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+
+<xs:simpleType name="contactType">
+ 	<xs:restriction base="xs:string">
+		<xs:enumeration value="Mobile"/>
+		<xs:enumeration value="Company"/>
+		<xs:enumeration value="Home"/>
+		<xs:enumeration value="Whatsapp"/>
+	</xs:restriction>
+</xs:simpleType>
 
 </xs:schema>
