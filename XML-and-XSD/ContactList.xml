@@ -5,8 +5,24 @@
 	<RenewDateTime>2018-06-22T16:15:10+08:00</RenewDateTime>
 	
 	<Record>
+		<Name>財力有限公司</Name>
+		<Contact Type="Company">+85223456789</Contact>
+		<Address>地球香港</Address>
+		<Department>會計部</Department>
+		<Title>CEO</Title>
+		<Description>會倒閉</Description>
+	</Record>
+
+	<Record>
+		<Name>長谷◯◯</Name>
+		<Contact Type="Mobile">+85234567890</Contact>
+		<Description>まったく、小学生は最高だぜ！！</Description>
+	</Record>
+
+	<Record>
 		<Name>灰燼</Name>
 		<Address>北方不死院</Address>
+		<Description>Prepare To Die Edition</Description>
 	</Record>
 
 </ContactList>
