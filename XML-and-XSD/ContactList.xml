@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContactList xmlns="https://javatoybox.blogspot.hk/SampleSchema"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="https://javatoybox.blogspot.hk/SampleSchema SampleXSD.xsd">
-	
+	xsi:schemaLocation="https://javatoybox.blogspot.hk/SampleSchema ContectListSchema.xsd">
+			 
 	<Owner>糟糕</Owner>
 	<RenewDateTime>2018-06-22T16:15:10+08:00</RenewDateTime>
 	<Record>
@@ -22,5 +22,12 @@
 		<Name>灰燼</Name>
 		<Address>北方不死院</Address>
 		<Description>Prepare To Die Edition</Description>
+	</Record>
+	<Record>
+		<Name>薪王</Name>
+		<Address>深淵</Address>
+		<Address>傳火祭祀場</Address>
+		<Address>灰燼湖</Address>
+		<Description>有火的地方就有家</Description>
 	</Record>
 </ContactList>
