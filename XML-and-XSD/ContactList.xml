@@ -2,7 +2,7 @@
 <ContactList xmlns="https://javatoybox.blogspot.hk/SampleSchema"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="https://javatoybox.blogspot.hk/SampleSchema ContectListSchema.xsd">
-			 
+	
 	<Owner>糟糕</Owner>
 	<RenewDateTime>2018-06-22T16:15:10+08:00</RenewDateTime>
 	<Record>
